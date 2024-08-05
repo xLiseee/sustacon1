@@ -9,6 +9,7 @@
 body {
 }
 
+
 /* Navbar styles */
 nav {
     background-color: white;
@@ -609,6 +610,38 @@ footer {
         padding-left: 25px;
         padding-right: 25px;
     }
+    nav {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    nav img {
+        width: 150px;
+        padding: 0;
+    }
+
+    nav .mid {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+
+    }
+    nav .mid a {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+
+    }
 
     .text {
         margin-top: 0;
@@ -854,6 +887,27 @@ footer {
 
     .footerdiv {
         display: none;
+    }
+    nav img {
+        width: 150px;
+        padding: 0;
+    }
+
+    nav .mid {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+
+    }
+    nav .mid a {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+
     }
 }
 

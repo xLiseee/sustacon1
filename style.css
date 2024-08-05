@@ -706,6 +706,7 @@ footer {
 
     .info {
         margin-top: 20px;
+        margin: 0 auto;
     }
     .hero {
         height: 100%;
@@ -743,7 +744,7 @@ footer {
         margin: 0 auto;
         height: 100%;
     }
-
+.hero .images { height: 200px; padding: 0 0; }
     nav ul li {
         display: flex;
         flex-direction: row;
@@ -1015,6 +1016,10 @@ align-items: center;
         margin: 0 auto;
     }
     .hero .images {
+        height: 300px;
+        margin: 0 auto;
+    }
+    .hero .images2 {
         height: 400px;
         margin: 0 auto;
     }
@@ -1043,6 +1048,9 @@ align-items: center;
         justify-content: center;
         padding: 40px;
         padding-top: 80px;
+    }
+    .whysusta button {
+        display: none;
     }
 }
 
