@@ -204,22 +204,6 @@ nav img {
     color: white;
     border: none;
 }
-.vakje-wit3:hover {
-    display: flex;
-    padding: 20px;
-    margin-top: 20px;
-
-    justify-content: center;
-    width: 400px;
-    height: 150px;
-    text-align: left;
-    flex-direction: column;
-    background-color: #004942;
-    color: white;
-    border: none;
-    transition: 0.3s;
-    cursor: pointer;
-}
 .vakje-wit:hover {
     display: flex;
     padding: 20px;

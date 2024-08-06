@@ -73,11 +73,24 @@ nav ul {
     border-radius: 5px;
 
 }
+#testim-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
 .right:hover {
     color: white;
     background-color: orangered;
     transition: 0.3s;
     cursor: pointer;
+}
+.testim-cover {
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
 }
 .mid {
     display: flex;
@@ -114,7 +127,12 @@ nav ul li {
     transition: 0.3s;
     cursor: pointer;
 }
-
+.howwork2 .gap {
+line-height: 30px;
+}
+.howwork3 .gap {
+    line-height: 30px;
+}
 nav ul li a {
     color: black;
     text-decoration: none;
@@ -226,7 +244,6 @@ nav img {
     height: 150px;
     text-align: left;
     flex-direction: column;
-    background-color: #004942;
     color: white;
     border: none;
     transition: 0.3s;
@@ -375,10 +392,11 @@ footer {
 
 .key_sectors {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     padding: 20px 80px;
     margin-top: 100px;
-    margin-left: 20px;
+    text-align: left;
+
 }
 .vakje-grijs {
     display: flex;
@@ -1012,7 +1030,7 @@ align-items: center;
     }
     .hero {
         height: 100%;
-        padding-top: 20px;
+        padding-top: 50px;
         margin: 0 auto;
     }
     .hero .images {
@@ -1052,6 +1070,18 @@ align-items: center;
     .whysusta button {
         display: none;
     }
+    .howwork h1 {
+        font-size: 20px;
+        text-align: left;
+        margin-left: 0;
+    }
+    .howwork .text {
+        justify-content: left;
+        margin-left: 0;
+    }
+}
+.alcomel {
+   width: 100%;
 }
 
     .wrap {
@@ -1059,6 +1089,10 @@ align-items: center;
         height: 100%;
         margin: 0 auto;
         padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
     }
 .main {
@@ -1138,9 +1172,12 @@ align-items: center;
 
     .testim .cont > div {
         text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         position: absolute;
-        top: 0;
-        left: 0;
+        margin: 0 auto;
         padding: 0 0 70px 0;
         opacity: 0;
     }
