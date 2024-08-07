@@ -419,12 +419,18 @@ footer {
 }
 .sectors {
     display: flex;
-    width: 1270px;
+    width: 100%;
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
     justify-content: center;
     margin-bottom: 100px;
+}
+.howwork2 .introtext {
+    line-height: 30px;
+}
+.howwork3 .introtext {
+    line-height: 30px;
 }
 .reports {
     display: flex;
@@ -469,6 +475,11 @@ footer {
     color: black;
     border: none;
 
+}
+.imagesabout img {
+    padding: 0;
+    margin: 0;
+    height: 500px;
 }
 .kolom3 img { width: 280px; align-items: center }
 
@@ -638,6 +649,7 @@ footer {
     height: 500px;
     padding: 0 0;
 }
+
 .howwork2 .text {
     padding:  80px;
     margin-top: 30px;
@@ -660,7 +672,7 @@ footer {
 .howwork p {
     font-weight: normal;
     color: black;
-    width: 600px;
+    width: 100%;
     text-align: left;
 }
 .howwork h1
@@ -717,9 +729,12 @@ footer {
         padding: 20px;
     }
 
-    .hero images {
+    .hero .images {
         height: 400px;
         padding-bottom: 30px;
+    }
+    .imagesabout img {
+        height: 100%;
     }
 
     .info {
@@ -902,7 +917,7 @@ align-items: center;
         cursor: pointer;
     }
 .textportfolio {
-    padding: 20px 25px;
+
     margin: 0;
 }
     .banner {
@@ -1032,15 +1047,27 @@ align-items: center;
         height: 100%;
         padding-top: 50px;
         margin: 0 auto;
+        width: 100%;
     }
     .hero .images {
         height: 300px;
         margin: 0 auto;
     }
+    .hero .imagesabout {
+        justify-content: center;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+    .hero .imagesabout img {
+        height: 350px;
+        margin: 0 auto;
+       margin-top: 50px
+    }
     .hero .images2 {
         height: 400px;
         margin: 0 auto;
     }
+
     #testim-dots {
         display: none;
     }
@@ -1048,6 +1075,9 @@ align-items: center;
        display: none;
     }
     .hero .images {
+        padding-top: 30px;
+    }
+    .hero .imagesabout img {
         padding-top: 30px;
     }
     .howwork {
